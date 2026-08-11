@@ -46,7 +46,7 @@ $$1^{[N-1]}.$$
 
 For $N = 21$ this pattern of equal spacings breaks down. Numerically the extremal gap list appears to be approximately
 
-$$a, 1^{[18]}, a \quad \textrm{where}\; a = 3.47$$
+$$a, 1^{[18]}, a $$ where $a = 3.47$
 
 For $N = 46$ the extremal gap list appears to be approximately
 
