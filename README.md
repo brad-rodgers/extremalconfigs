@@ -38,7 +38,7 @@ for some $L = L_N$ and values $\gamma_0,...,\gamma_L$ and $n_0,...,n_L$ also dep
 
 Furthermore for each fixed $j$ it seems $\gamma_j$ grows polynomially fast with $N$, at a rate which increases the larger $j$ is. It may even be that $\gamma_j = N^{j+o(1)}$, but the evidence for this is not yet especially strong.
 
-# ExtremalLambdaSearch_SmallN
+# small_dimension
 
 This directory contains a numerical search for extremal $\lambda$ for $2 \leq N \leq 48$. Some representative examples include the following: For $2 \leq N \leq 20$ it appears numerically that extremal configurations are those with the gap list,
 
@@ -54,7 +54,7 @@ $$a, b^{[2]}, 1^{[39]}, b^{[2]}, a \quad \textrm{where} \quad a = 19.15, \quad b
 
 These candidates for extremal gap lists were found via a multistart optimization routine in a high dimensional nonconvex domain; so while it is reasonable to believe they are close approximations to the actually extremal configurations, no proof of this exists for general $N$.
 
-# ExtremalLambdaSearch_Experiments
+# large_dimension_investigation
 
 This directory contains numerical experiments related to the large $N$ conjectures given above for gap distributions.
 
