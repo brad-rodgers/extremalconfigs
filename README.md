@@ -58,4 +58,4 @@ These candidates for extremal gap lists were found via a multistart optimization
 
 This directory contains numerical experiments related to the large $N$ conjectures given above for gap distributions.
 
-A numerical analysis based on extrapolating these patterns suggest that the optimal absolute constant $C$ in \eqref{eq:infinite_Hilbert} is around 3.1432.
+A numerical analysis based on extrapolating these patterns suggest that the optimal absolute constant $C$ in the weighted Hilbert inequality (holding for all $N$, $\lambda$, $w$) is around 3.1432.
