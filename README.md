@@ -25,9 +25,9 @@ The numerical data below allows one to somewhat tenuously make the following con
 
 (2)  For each $N$ the gap list can be written
 
-$$\gamma_L^{[n_L]}, \gamma_{L-1}^{[n_{L-1}]},...,\gamma_1^{[n_1]}, \gamma_0^{[n_0]}, \gamma_1^{[n_1]},..., \gamma_L^{[n_L]},$$
+$$\gamma_L^{[n_L]},...,\gamma_1^{[n_1]}, \gamma_0^{[n_0]}, \gamma_1^{[n_1]},..., \gamma_L^{[n_L]},$$
 
-for some $L = L_N$ and values $\gamma_0,...,\gamma_L$ and $n_0,...,n_L$ also depending on $N$ with the normalization $\gamma_0 = 0$, and with the further properties that $\gamma_{j+1} > \gamma_j$ while $n_{j+1} \leq n_j$ for all $j$.
+for some $L = L_N$ and values $\gamma_0,...,\gamma_L$ and $n_0,...,n_L$ also depending on $N$ with the normalization $\gamma_0 = 1$, and with the further properties that $\gamma_{j+1} > \gamma_j$ while $n_{j+1} \leq n_j$ for all $j$.
 
 (3) $L_N = \log_\pi(N) + O(1)$.
 
