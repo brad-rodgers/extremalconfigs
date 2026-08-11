@@ -46,11 +46,11 @@ $$1^{[N-1]}.$$
 
 For $N = 21$ this pattern of equal spacings breaks down. Numerically the extremal gap list appears to be approximately
 
-$$a, 1^{[18]}, a $$ where $a = 3.47$
+$$a, 1^{[18]}, a \quad \textrm{where} \quad a = 3.47$$
 
 For $N = 46$ the extremal gap list appears to be approximately
 
-$$a, b^{[2]}, 1^{[39]}, b^{[2]}, a \quad \textrm{where}\; a = 19.15, \, b = 5.71$$
+$$a, b^{[2]}, 1^{[39]}, b^{[2]}, a \quad \textrm{where} \quad a = 19.15, b = 5.71$$
 
 These candidates for extremal gap lists were found via a multistart optimization routine in a high dimensional nonconvex domain; so while it is reasonable to believe they are close approximations to the actually extremal configurations, no proof of this exists for general $N$.
 
