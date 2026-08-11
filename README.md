@@ -3,21 +3,20 @@ Programs for finding extremal configurations in the weighted Hilbert inequality.
 
 # Hilbert inequality and reformulation
 For fixed $N \geq 2$ and fixed $\lambda_1 < \cdots < \lambda_N$, let $C_N(\lambda_1,...,\lambda_N)$ be the optimal constant $C$ in the inequality
-$$
-\Big| \sum_{\substack{1 \leq m,n \leq N \\ m \neq n}}  \frac{w_m \overline{w_n}}{\lambda_m - \lambda_n} \Big| \leq C \sum_{1\leq m \leq N} \frac{|w_m|^2}{\delta_m},
-$$
+
+$$\Big| \sum_{\substack{1 \leq m,n \leq N \\ m \neq n}}  \frac{w_m \overline{w_n}}{\lambda_m - \lambda_n} \Big| \leq C \sum_{1\leq m \leq N} \frac{|w_m|^2}{\delta_m},$$
+
 where $\delta_n = \min_{m\neq n}|\lambda_m-\lambda_n|$ and $w_1,...,w_N$ are arbitrary real or complex numbers. This may be phrased in terms of the spectral radius of the $N\times N$ skew-symmetric matrix $B_N(\lambda_1,...,\lambda_N)$ with entries $b_{jk}$ given by
-$$
-b_{jk} = \begin{cases} 
+
+$$b_{jk} = \begin{cases} 
 \sqrt{\delta_j \delta_k}/(\lambda_j - \lambda_k) & \textrm{for}\; j\neq k \\
 0 & \textrm{for}\; j = k.
-\end{cases}
-$$
+\end{cases}$$
 
-Let 
-$$
-C_N = \sup_\lambda \rho(B_N(\lambda_1,...,\lambda_N)),
-$$
+Let
+
+$$C_N = \sup_\lambda \rho(B_N(\lambda_1,...,\lambda_N)),$$
+
 where $\rho$ is the spectral radius. It is an exercise in analysis using translation and dilation invariance in $\lambda$ of $B_N$ to see that the supremum is actually realized for each $N$. Because of this invariance,
 
 
