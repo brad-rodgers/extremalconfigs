@@ -1,0 +1,38 @@
+[
+  {
+    "N": 800,
+    "profile_rho": 3.132299222002076,
+    "dense_or_direct_rayleigh": 3.1322992220020924,
+    "absolute_difference": 1.6431300764452317e-14,
+    "direct_eigen_residual": null,
+    "hierarchical_direct_matvec_norm_difference": null,
+    "method": "dense scipy.linalg.eigh versus hierarchical Lanczos"
+  },
+  {
+    "N": 1000,
+    "profile_rho": 3.1343077410923286,
+    "dense_or_direct_rayleigh": 3.1343077410923286,
+    "absolute_difference": 0.0,
+    "direct_eigen_residual": null,
+    "hierarchical_direct_matvec_norm_difference": null,
+    "method": "dense scipy.linalg.eigh versus hierarchical Lanczos"
+  },
+  {
+    "N": 8000,
+    "profile_rho": 3.141609331452917,
+    "dense_or_direct_rayleigh": 3.141609331452917,
+    "absolute_difference": 0.0,
+    "direct_eigen_residual": 6.720169750097488e-12,
+    "hierarchical_direct_matvec_norm_difference": 2.662541112053306e-15,
+    "method": "direct O(N^2) block matrix-vector product versus rank-20 hierarchical operator"
+  },
+  {
+    "N": 50000,
+    "profile_rho": 3.1428443557759804,
+    "dense_or_direct_rayleigh": 3.142844355775985,
+    "absolute_difference": 4.440892098500626e-15,
+    "direct_eigen_residual": 3.019107789481781e-08,
+    "hierarchical_direct_matvec_norm_difference": 1.3843283202952858e-14,
+    "method": "direct O(N^2) block matrix-vector product versus rank-18 hierarchical operator"
+  }
+]

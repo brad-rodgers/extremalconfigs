@@ -1,0 +1,5 @@
+N,profile_rho,dense_or_direct_rayleigh,absolute_difference,direct_eigen_residual,hierarchical_direct_matvec_norm_difference,method
+800,3.132299222002076,3.1322992220020924,1.6431300764452317e-14,,,dense scipy.linalg.eigh versus hierarchical Lanczos
+1000,3.1343077410923286,3.1343077410923286,0.0,,,dense scipy.linalg.eigh versus hierarchical Lanczos
+8000,3.141609331452917,3.141609331452917,0.0,6.720169750097488e-12,2.662541112053306e-15,direct O(N^2) block matrix-vector product versus rank-20 hierarchical operator
+50000,3.1428443557759804,3.142844355775985,4.440892098500626e-15,3.019107789481781e-08,1.3843283202952858e-14,direct O(N^2) block matrix-vector product versus rank-18 hierarchical operator

@@ -1,0 +1,141 @@
+{
+  "note": "The Taylor bounds control only hierarchical truncation. Ordinary floating-point rounding is cross-checked, not interval-certified. Direct O(N^2) Rayleigh checks are also supplied.",
+  "N8000": {
+    "profile": {
+      "N": 8000,
+      "counts": [
+        5241,
+        983,
+        274,
+        81,
+        27,
+        10,
+        3,
+        1
+      ],
+      "levels": [
+        1.0,
+        353.95288303720537,
+        27658.878443166206,
+        433181.148540956,
+        4192244.4822672154,
+        30414349.0267612,
+        182475838.8849519,
+        621532596.4723216
+      ]
+    },
+    "direct": {
+      "rayleigh": 3.141609331452917,
+      "eigen_residual": 6.720169750097488e-12,
+      "above_pi": 1.667786312387065e-05
+    },
+    "hierarchical": [
+      {
+        "leaf_size": 32,
+        "theta": 0.22,
+        "rank": 18,
+        "rayleigh": 3.141609331452914,
+        "eigen_residual": 1.4095990262547521e-11,
+        "taylor_error_bound": 1.1887505978275768e-13,
+        "lower_bound_ignoring_roundoff": 3.141609331452795,
+        "above_pi": 1.6677863001746118e-05
+      },
+      {
+        "leaf_size": 32,
+        "theta": 0.18,
+        "rank": 20,
+        "rayleigh": 3.141609331452913,
+        "eigen_residual": 7.847469233681415e-12,
+        "taylor_error_bound": 2.893349143568937e-17,
+        "lower_bound_ignoring_roundoff": 3.141609331452913,
+        "above_pi": 1.6677863119873848e-05
+      },
+      {
+        "leaf_size": 16,
+        "theta": 0.14,
+        "rank": 24,
+        "rayleigh": 3.1416093314529134,
+        "eigen_residual": 5.672289201376544e-12,
+        "taylor_error_bound": 4.1147543740068734e-22,
+        "lower_bound_ignoring_roundoff": 3.1416093314529134,
+        "above_pi": 1.6677863120317937e-05
+      }
+    ]
+  },
+  "N50000": {
+    "profile": {
+      "N": 50000,
+      "counts": [
+        34079,
+        5425,
+        1727,
+        550,
+        175,
+        56,
+        18,
+        6,
+        2,
+        1
+      ],
+      "levels": [
+        1.0,
+        2307.3254805425063,
+        1594103.8523674065,
+        91566866.36971642,
+        3402583217.4889884,
+        78941411369.18254,
+        1519360073299.565,
+        14511360935206.574,
+        4204558992095547.5,
+        4.204558992095527e+17
+      ]
+    },
+    "direct": {
+      "rayleigh": 3.142844355775985,
+      "eigen_residual": 3.019107789481781e-08,
+      "above_pi": 0.0012517021861917499
+    },
+    "hierarchical": [
+      {
+        "leaf_size": 32,
+        "theta": 0.22,
+        "rank": 18,
+        "rayleigh": 3.142844355775982,
+        "eigen_residual": 2.9171843087064125e-08,
+        "taylor_error_bound": 2.064997665545385e-13,
+        "lower_bound_ignoring_roundoff": 3.1428443557757757,
+        "above_pi": 0.0012517021859825839
+      },
+      {
+        "leaf_size": 32,
+        "theta": 0.18,
+        "rank": 20,
+        "rayleigh": 3.1428443557759866,
+        "eigen_residual": 2.9171843302202434e-08,
+        "taylor_error_bound": 3.049503741434353e-17,
+        "lower_bound_ignoring_roundoff": 3.1428443557759866,
+        "above_pi": 0.0012517021861935262
+      },
+      {
+        "leaf_size": 16,
+        "theta": 0.14,
+        "rank": 24,
+        "rayleigh": 3.1428443557759866,
+        "eigen_residual": 2.9171843318936774e-08,
+        "taylor_error_bound": 4.815726466138907e-22,
+        "lower_bound_ignoring_roundoff": 3.1428443557759866,
+        "above_pi": 0.0012517021861935262
+      },
+      {
+        "leaf_size": 16,
+        "theta": 0.12,
+        "rank": 28,
+        "rayleigh": 3.1428443557759866,
+        "eigen_residual": 2.9171843322110643e-08,
+        "taylor_error_bound": 9.349149381908884e-28,
+        "lower_bound_ignoring_roundoff": 3.1428443557759866,
+        "above_pi": 0.0012517021861935262
+      }
+    ]
+  }
+}

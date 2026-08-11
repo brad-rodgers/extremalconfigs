@@ -1,0 +1,7 @@
+{
+  "limit": 3.14320483388365,
+  "coefficient": 2.3637774307487076,
+  "exponent": 0.8123332204949314,
+  "plots_written": 11,
+  "out_dir": "large_N_plots"
+}
