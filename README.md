@@ -53,7 +53,7 @@ $$a, b^{[2]}, 1^{[39]}, b^{[2]}, a \quad \textrm{where} \quad a = 19.15, \quad b
 
 These candidates for extremal gap lists were found via a multistart optimization routine in a high dimensional nonconvex domain; so while it is reasonable to believe they are close approximations to the actually extremal configurations, no proof of this exists for general $N$.
 
-# large_dimension_investigation
+# large_dimension
 
 This directory contains numerical experiments related to the large $N$ conjectures given above for gap distributions. In order to compress the search space, properties (1) and (2) are now assumed for the optimizers.
 
