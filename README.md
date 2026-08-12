@@ -1,5 +1,5 @@
-# extremalconfigs
-Programs for finding extremal configurations in the weighted Hilbert inequality. This has been used to make conjectures below. Code has been produced by ChatGPT 5.6 Sol and has not been independently audited at this time.
+# Extremal configurations for the weighted Hilbert inequality
+This repository includes numerical experiments that have been used in searching for extremal configurations in the weighted Hilbert inequality. The output of the programs has been used to make conjectures below. Code has been produced by ChatGPT 5.6 Sol and has not been independently audited at this time.
 
 # Hilbert inequality and reformulation
 For fixed $N \geq 2$ and fixed $\lambda_1 < \cdots < \lambda_N$, let $C_N(\lambda_1,...,\lambda_N)$ be the optimal constant $C$ in the inequality
@@ -17,7 +17,7 @@ Let
 
 $$C_N = \sup_\lambda \rho(B_N(\lambda_1,...,\lambda_N)),$$
 
-where $\rho$ is the spectral radius. It is an exercise in analysis using translation and dilation invariance in $\lambda$ of $B_N$ to see that the supremum is actually realized for each $N$. Because of this invariance, we lose no generality in looking for extremal $\lambda$ with $\lambda_1 = 1$ and such that the smallest gap between any of the $\lambda_j$ is $1$. We can thus describe a configuration $\lambda_1,...,\lambda_N$ by listing the $N-1$ gaps which we label $g_1,...,g_{N-1}$. It will be convenient in discussing gap lists to introduce the notation that if a gap size $g$ is repeated $r$ times, we write this as $g^{[r]}$. So for instance the configuration $\lambda_1 < \cdots < \lambda_5$ given by $0 < 1 < 4 < 7 < 7.5$ would be described by the gap list $1, 3^{[2]}, 0.5$.
+where $\rho$ is the spectral radius. It is an exercise in analysis using translation and dilation invariance in $\lambda$ of $B_N$ to see that the supremum is actually realized for each $N$. Because of this invariance, we lose no generality in looking for extremal $\lambda$ with $\lambda_1 = 1$ and such that the smallest gap between any of the $\lambda_j$ is $1$. We can thus describe a configuration $\lambda_1,...,\lambda_N$ by listing the $N-1$ gaps which we label $g_1,...,g_{N-1}$. It will be convenient in discussing gap lists to introduce the notation that if a gap size $g$ is repeated $r$ times, we write this as $g^{[r]}$. So for instance the configuration $\lambda_1 < \cdots < \lambda_5$ given by $0 < 1 < 4 < 7 < 8.5$ would be described by the gap list $1, 3^{[2]}, 1.5$.
 
 The numerical data below allows one to somewhat tenuously make the following conjectures about gap lists $g_1,...,g_{N-1}$ for extremal configurations in dimension $N$:
 
@@ -31,12 +31,12 @@ for some $L = L_N$ and values $\gamma_0,...,\gamma_L$ and $n_0,...,n_L$ also dep
 
 (3) $L_N = \log_\pi(N) + O(1)$.
 
-(4) $n_0 \sim \left(1-\frac{1}{\pi}\right)N$ as $N\rightarrow\infty$.
+(4) For each fixed $j$, we have that $\gamma_j$ grows polynomially quickly in $N$. It may even be that $\gamma_j = N^{j+o(1)}$ but the evidence for this is not especially strong.
 
-(5) $n_j \sim \frac{1}{2}\left(1-\frac{1}{\pi}\right) \frac{1}{\pi^j} N$ as $N\rightarrow\infty$ for all fixed $j\geq 1$.
+(5) $n_0 \sim \left(1-\frac{1}{\pi}\right)N$ as $N\rightarrow\infty$.
+
+(6) $n_j \sim \frac{1}{2}\left(1-\frac{1}{\pi}\right) \frac{1}{\pi^j} N$ as $N\rightarrow\infty$ for all fixed $j\geq 1$.
 \end{enumerate}
-
-Furthermore for each fixed $j$ it seems $\gamma_j$ grows polynomially fast with $N$, at a rate which increases the larger $j$ is. It may even be that $\gamma_j = N^{j+o(1)}$, but the evidence for this is not yet especially strong.
 
 # small_dimension
 
