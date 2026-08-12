@@ -17,7 +17,7 @@ $$
 where $\delta_j$ is the distance from $\lambda_j$ to its nearest neighboring
 point.
 
-Produced by ChatGPT for the purpose of numerical exploration. Not independently audited at this time.
+This directory including this document was produced by ChatGPT for the purpose of numerical exploration. Not independently audited at this time.
 
 ## Parameterization and normalization
 
