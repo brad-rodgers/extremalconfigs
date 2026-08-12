@@ -1,5 +1,5 @@
 # Extremal configurations for the weighted Hilbert inequality
-This repository includes numerical experiments that have been used in searching for extremal configurations in the weighted Hilbert inequality. The output of the programs has been used to make conjectures below. Code has been produced by ChatGPT 5.6 Sol, has only been used for numerical exploration, and has not been independently audited at this time.
+This repository includes numerical experiments that have been used in searching for extremal configurations in the weighted Hilbert inequality. The output of the programs has been used to make conjectures below. Code has been produced by ChatGPT 5.6 Sol, and has not been independently audited at this time.
 
 # Hilbert inequality and reformulation
 For fixed $N \geq 2$ and fixed $\lambda_1 < \cdots < \lambda_N$, let $C_N(\lambda_1,...,\lambda_N)$ be the optimal constant $C$ in the inequality
