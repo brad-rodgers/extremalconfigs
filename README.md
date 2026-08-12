@@ -36,7 +36,6 @@ for some $L = L_N$ and values $\gamma_0,...,\gamma_L$ and $n_0,...,n_L$ also dep
 (5) $n_0 \sim \left(1-\frac{1}{\pi}\right)N$ as $N\rightarrow\infty$.
 
 (6) $n_j \sim \frac{1}{2}\left(1-\frac{1}{\pi}\right) \frac{1}{\pi^j} N$ as $N\rightarrow\infty$ for all fixed $j\geq 1$.
-\end{enumerate}
 
 # small_dimension
 
