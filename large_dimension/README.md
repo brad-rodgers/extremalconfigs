@@ -5,7 +5,7 @@ up to $N=50000$. Unlike the unrestricted search in
 [`../small_dimension/`](../small_dimension/), the large-dimensional computation
 uses a compressed symmetric plateau model.
 
-Produced by ChatGPT for the purpose of numerical exploration. Not independently audited at this time.
+This directory including this document was produced by ChatGPT for the purpose of numerical exploration. Not independently audited at this time.
 
 ## Scope and normalization
 
