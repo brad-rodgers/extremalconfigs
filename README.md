@@ -55,6 +55,6 @@ These candidates for extremal gap lists were found via a multistart optimization
 
 # large_dimension_investigation
 
-This directory contains numerical experiments related to the large $N$ conjectures given above for gap distributions.
+This directory contains numerical experiments related to the large $N$ conjectures given above for gap distributions. In order to compress the search space, properties (1) and (2) are now assumed for the optimizers.
 
 A numerical analysis based on extrapolating these patterns suggest that the optimal absolute constant $C$ in the weighted Hilbert inequality (holding for all $N$, $\lambda$, $w$) is around 3.1432.
