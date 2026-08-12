@@ -1,0 +1,53 @@
+{
+  "note": "Independent direct all-pairs Rayleigh-quotient checks. These do not import or use the hierarchical search implementation.",
+  "checks": [
+    {
+      "N": 8000,
+      "method": "direct all-pairs Hermitian pair sum",
+      "pair_count": 31996000,
+      "block_size": 256,
+      "rayleigh_longdouble_accumulator": "3.1416093314529141508",
+      "rayleigh_float": 3.1416093314529143,
+      "above_pi": 1.667786312115082e-05,
+      "sum_absolute_pair_contributions": 3.8580981856767544,
+      "absolute_sum_over_rayleigh": 1.2280642749085808,
+      "vector_norm": 1.0,
+      "stored_candidate_rho": 3.141609331452917,
+      "difference_from_stored_candidate": -2.8492833092919057e-15,
+      "seconds": 0.34903092399986235,
+      "roundoff_note": "Pair terms are float64; block and global accumulation use longdouble. This is a numerical cross-check, not an interval-arithmetic proof."
+    },
+    {
+      "N": 8000,
+      "method": "direct all-pairs Hermitian pair sum with longdouble terms",
+      "pair_count": 31996000,
+      "block_size": 128,
+      "rayleigh_longdouble_accumulator": "3.1416093314529186795",
+      "rayleigh_float": 3.1416093314529188,
+      "above_pi": 1.6677863125679534e-05,
+      "sum_absolute_pair_contributions": 3.8580981856767598,
+      "absolute_sum_over_rayleigh": 1.2280642749085808,
+      "vector_norm": 1.0,
+      "stored_candidate_rho": 3.141609331452917,
+      "difference_from_stored_candidate": 1.6794291651800464e-15,
+      "seconds": 1.3774442690000797,
+      "roundoff_note": "Pair terms and accumulation use NumPy longdouble. This is a numerical cross-check, not an interval-arithmetic proof."
+    },
+    {
+      "N": 50000,
+      "method": "direct all-pairs Hermitian pair sum",
+      "pair_count": 1249975000,
+      "block_size": 256,
+      "rayleigh_longdouble_accumulator": "3.142844355775986379",
+      "rayleigh_float": 3.142844355775986,
+      "above_pi": 0.001251702186193379,
+      "sum_absolute_pair_contributions": 3.9347446265555073,
+      "absolute_sum_over_rayleigh": 1.251969293141784,
+      "vector_norm": 1.0,
+      "stored_candidate_rho": 3.142844355775985,
+      "difference_from_stored_candidate": 1.3791051634015616e-15,
+      "seconds": 12.709082730000091,
+      "roundoff_note": "Pair terms are float64; block and global accumulation use longdouble. This is a numerical cross-check, not an interval-arithmetic proof."
+    }
+  ]
+}

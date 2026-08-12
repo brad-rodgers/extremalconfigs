@@ -1,0 +1,16 @@
+{
+  "N": 8000,
+  "method": "direct all-pairs Hermitian pair sum with longdouble terms",
+  "pair_count": 31996000,
+  "block_size": 128,
+  "rayleigh_longdouble_accumulator": "3.1416093314529186795",
+  "rayleigh_float": 3.1416093314529188,
+  "above_pi": 1.6677863125679534e-05,
+  "sum_absolute_pair_contributions": 3.8580981856767598,
+  "absolute_sum_over_rayleigh": 1.2280642749085808,
+  "vector_norm": 1.0,
+  "stored_candidate_rho": 3.141609331452917,
+  "difference_from_stored_candidate": 1.6794291651800464e-15,
+  "seconds": 1.3774442690000797,
+  "roundoff_note": "Pair terms and accumulation use NumPy longdouble. This is a numerical cross-check, not an interval-arithmetic proof."
+}

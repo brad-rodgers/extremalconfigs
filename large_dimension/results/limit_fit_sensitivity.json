@@ -1,0 +1,101 @@
+{
+  "model": "rho_N=C-a*N^{-p}",
+  "fits": [
+    {
+      "data_subset": "all_candidates",
+      "N_min": 800,
+      "N_values": "800,1000,1700,3000,5000,8000,12000,20000,50000",
+      "point_count": 9,
+      "C": 3.1430865399278547,
+      "a": 3.628448780660988,
+      "p": 0.8711852657445694,
+      "rmse": 4.4553016802775295e-05,
+      "max_abs_residual": 6.63133021796547e-05
+    },
+    {
+      "data_subset": "all_candidates",
+      "N_min": 1000,
+      "N_values": "1000,1700,3000,5000,8000,12000,20000,50000",
+      "point_count": 8,
+      "C": 3.143133080654744,
+      "a": 3.121695350080716,
+      "p": 0.8499677717160441,
+      "rmse": 2.8629470719869628e-05,
+      "max_abs_residual": 6.107150575296316e-05
+    },
+    {
+      "data_subset": "all_candidates",
+      "N_min": 1700,
+      "N_values": "1700,3000,5000,8000,12000,20000,50000",
+      "point_count": 7,
+      "C": 3.14320483388365,
+      "a": 2.3637774307487076,
+      "p": 0.8123332204949314,
+      "rmse": 1.2833206150584705e-06,
+      "max_abs_residual": 1.9248642799674087e-06
+    },
+    {
+      "data_subset": "all_candidates",
+      "N_min": 3000,
+      "N_values": "3000,5000,8000,12000,20000,50000",
+      "point_count": 6,
+      "C": 3.1432069467815484,
+      "a": 2.337587811971113,
+      "p": 0.8109091522295622,
+      "rmse": 1.2267423073095072e-06,
+      "max_abs_residual": 2.0607239594738758e-06
+    },
+    {
+      "data_subset": "all_candidates",
+      "N_min": 5000,
+      "N_values": "5000,8000,12000,20000,50000",
+      "point_count": 5,
+      "C": 3.1432037942291977,
+      "a": 2.390723204153871,
+      "p": 0.8136508852336449,
+      "rmse": 1.214385038768005e-06,
+      "max_abs_residual": 2.0284573527540317e-06
+    },
+    {
+      "data_subset": "all_candidates",
+      "N_min": 8000,
+      "N_values": "8000,12000,20000,50000",
+      "point_count": 4,
+      "C": 3.143203866313238,
+      "a": 2.392271096940305,
+      "p": 0.8137084162530863,
+      "rmse": 1.3549968600124598e-06,
+      "max_abs_residual": 1.977962520438581e-06
+    },
+    {
+      "data_subset": "count_independent_only",
+      "N_min": 1700,
+      "N_values": "1700,3000,5000,8000,20000",
+      "point_count": 5,
+      "C": 3.143207859155301,
+      "a": 2.3541992330780186,
+      "p": 0.811715238785339,
+      "rmse": 1.0298072837674143e-06,
+      "max_abs_residual": 1.677572036840047e-06
+    },
+    {
+      "data_subset": "count_independent_only",
+      "N_min": 3000,
+      "N_values": "3000,5000,8000,20000",
+      "point_count": 4,
+      "C": 3.143214206180706,
+      "a": 2.2971743281700516,
+      "p": 0.8084815327975355,
+      "rmse": 4.858640960873725e-07,
+      "max_abs_residual": 6.760964534890945e-07
+    }
+  ],
+  "recommended": {
+    "central": 3.143205,
+    "working_interval": [
+      3.14315,
+      3.1433
+    ],
+    "note": "Working interval is wider than regression variation to allow profile-class and local-search systematics."
+  }
+}
