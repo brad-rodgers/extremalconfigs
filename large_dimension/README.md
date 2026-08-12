@@ -156,7 +156,7 @@ $-1.21$ and $-0.44$ for the large-$N$ records. A sharper empirical rule is
 
 $$
 L_N\approx
-\operatorname{nint}\!\left(\log_{\pi}\left(\frac12
+\mathrm{nint}\!\left(\log_{\pi}\left(\frac12
 \left(1-\frac1\pi\right)N\right)\right),
 $$
 
