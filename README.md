@@ -21,7 +21,7 @@ where $\rho$ is the spectral radius. It is an exercise in analysis using transla
 
 The numerical data below allows one to somewhat tenuously make the following conjectures about gap lists $g_1,...,g_{N-1}$ for extremal configurations in dimension $N$:
 
-(1) The gap list is symmetric; that is $g_{N-j} = g_j$ for all $N$ and $j$.
+(1) The gap list is symmetric; that is $g_{N-j} = g_j$ for all $N$ and $j$, and moreover under the above conventions the extremal gap list is unique.
 
 (2)  For each $N$ the gap list can be written
 
